@@ -13,7 +13,6 @@ int main() {
         if (i == 4) printf(" ");
     }
     printf("\n");
-
     unsigned char swapped = ((num & 0x0F) << 4) | ((num & 0xF0) >> 4);
 
     printf("Swapped Number : %d\n", swapped);
