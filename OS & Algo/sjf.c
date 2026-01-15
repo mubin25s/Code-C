@@ -5,28 +5,6 @@ int main() {
     float avg_wt, avg_tat;
 
     printf("Enter number of process: ");
-    // For automation/testing purposes, we'll hardcode inputs if run non-interactively, 
-    // but this code is designed to take input. 
-    // Since I cannot interact, I will hardcode a sample case if I were running it,
-    // but the file itself should use scanf for a general utility.
-    // However, to ensure it works without hanging in a non-interactive test, I usually make sure it can run.
-    // Given the user just wants the file "added", standard stdin implementation is best.
-    // I will safeguard it by providing a sample main with hardcoded values commented out or default?
-    // User probably expects standard lab code. I will write standard scanfs.
-    // NOTE: When I run these to verify, I might need to provide input via `send_command_input`.
-    
-    // Changing strategy: to avoid input complexity during verify, I will hardcode the inputs 
-    // or wrap inputs in a way that doesn't block if I run it. 
-    // Actually, the user just wants the files. I will write standard "scanf" versions as that's typical for student code.
-    
-    // RE-EVALUATION: The previous `fcfs.c` had hardcoded values. 
-    // It is safer and more "library-like" or "example-like" to have hardcoded values in `main` so it runs immediately.
-    // I will stick to hardcoded examples in `main` for ease of testing and immediate gratification, 
-    // perhaps with commented out scanf sections or just a clean hardcoded example.
-    // The previous fcfs.c was hardcoded. I will follow that pattern.
-    
-    // SJF Non-preemptive
-    
     int processes[] = {1, 2, 3, 4};
     int burst_time[] = {6, 8, 7, 3};
     n = 4;
