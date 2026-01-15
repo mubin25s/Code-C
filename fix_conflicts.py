@@ -1,4 +1,5 @@
 import os
+
 import re
 
 def fix_conflicts(directory):
