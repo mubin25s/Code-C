@@ -4,7 +4,7 @@
 #define MAX 100
 
 int adj[MAX][MAX];
-int visited[MAX];
+int visited[MAX]
 int queue[MAX];
 int front = -1, rear = -1;
 int n;
