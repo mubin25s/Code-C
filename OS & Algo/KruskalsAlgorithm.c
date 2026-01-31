@@ -18,7 +18,7 @@ struct Graph* createGraph(int V, int E) {
     returnS;
 }
 
-struct subset {S
+struct subset {
     int parent;
     int rank;
 };
