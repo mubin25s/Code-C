@@ -15,10 +15,10 @@ struct Graph* createGraph(int V, int E) {
     graph->V = V;
     graph->E = E;
     graph->edge = (struct Edge*)malloc(graph->E * sizeof(struct Edge));
-    return graph;
+    returnS;
 }
 
-struct subset {
+struct subset {S
     int parent;
     int rank;
 };
