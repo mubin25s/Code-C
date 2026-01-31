@@ -15,7 +15,7 @@ struct Graph* createGraph(int V, int E) {
     graph->V = V;
     graph->E = E;
     graph->edge = (struct Edge*)malloc(graph->E * sizeof(struct Edge));
-    returnS;
+    return graph;
 }
 
 struct subset {
