@@ -10,6 +10,7 @@ struct Pet {
     float price;
 };
 
+
 const char *PET_FILENAME = "pet_shop_data.txt";
 
 void addPet();
