@@ -1,6 +1,6 @@
 #include "array_utils.h"
-
-// Calculate sum of array elements
+// Calculate su
+m of array elements
 int array_sum(int *arr, int size) {
     int sum = 0;
     for (int i = 0; i < size; i++) {
